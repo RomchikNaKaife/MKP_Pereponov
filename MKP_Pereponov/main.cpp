@@ -85,8 +85,8 @@ double newtonMethod(double M, double e, double epsilon) {
 
 int main() {
     double M = 3.1416;
-    double e =  0.9855;
-    double epsilon = 1.000001;
+    double e =  0.83914;
+    double epsilon = 0.000001;
 
     
     std::cout << "Итерационный метод: " << iterateMethod(M, e, epsilon) << std::endl;
